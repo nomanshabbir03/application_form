@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F1FA;
+}
+
+
+header h1{
+    background-color: purple;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+form{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+li{
+    background-color:purple;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: whitesmoke;
+}
+
+#generalQuestions{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    /* gap: 20px; */
+}
+.row label{
+    width: 150px;
+    margin-top:10px ;
+}
+.row input{
+    background-color:#F9F9F9;
+    margin-top:10px ;
+    border: 2px solid #C8B6E2;
+}
+
+table{
+    border: 2px solid black;
+}
+table tr{
+    background:#FFFFFF;
+    height:25px
+}
+
+.submit button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: purple;
+    color: whitesmoke;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+}
